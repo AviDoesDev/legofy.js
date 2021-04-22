@@ -1,6 +1,7 @@
 const Canvas = require('canvas');
+const path = require('path');
 
-const brick = `${__dirname}/../images/brick.png`
+const brick = path.join(__dirname,'..','images','brick.png');
 const defaultOpts = { format: 'jpeg', quality: 'good', brick }
 const pixelIntervalPreset = { fast: 8, good: 5, best: 3, nearest: 2, bilinear: 1 }
 

@@ -1,0 +1,9 @@
+{
+  "name": "legofy",
+  "version": "0.0.1",
+  "description": "Modern Node.js version of Legofy",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.7.0"
+  }
+}
